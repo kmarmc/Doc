@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T11:11:49.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="JwdI7LoTNxKUUQasanhC" version="24.4.15" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-10T14:47:34.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BwDpW_M1Ey5qQaGyKuhd" version="24.5.2" type="device" pages="2">
   <diagram name="Página-1" id="bhXczR_S5o1jz8hCAI9M">
     <mxGraphModel dx="-914" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1272,6 +1272,9 @@
         </mxCell>
         <mxCell id="KyIjZ85ajAnAEh0-HnkL-173" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="0NxeWcbMaUTtX7idjJi--81" vertex="1">
           <mxGeometry x="620" y="1064.74" width="140" height="14.74" as="geometry" />
+        </mxCell>
+        <mxCell id="aFrYm689T7ncvlmSD_TT-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0NxeWcbMaUTtX7idjJi--81" source="KyIjZ85ajAnAEh0-HnkL-176" target="KyIjZ85ajAnAEh0-HnkL-173">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KyIjZ85ajAnAEh0-HnkL-176" value="Salvar" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="0NxeWcbMaUTtX7idjJi--81" vertex="1">
           <mxGeometry x="608" y="1090" width="81.59" height="30" as="geometry" />
@@ -4876,7 +4879,7 @@
         <mxCell id="KyIjZ85ajAnAEh0-HnkL-98" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_system_update_alt_48px-128.png;direction=west;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="4660" y="116.49000000000001" width="47.01" height="47.01" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-2" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-2" value="" style="shape=link;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="3332.51" y="4680" as="sourcePoint" />
             <mxPoint x="7410" y="4680" as="targetPoint" />
@@ -4885,28 +4888,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/user-interface-169/32/plus-128.png" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/user-interface-169/32/plus-128.png" parent="1" vertex="1">
           <mxGeometry x="3839" y="2402.5" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-21" value="CADASTRO DE CORTADOR&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NOME :&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-21" value="CADASTRO DE CORTADOR&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NOME :&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3520.01" y="2224" width="275.3" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-22" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-22" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3602" y="2270" width="138" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-23" value="SALVAR" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-23" value="SALVAR" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3616.03" y="2320" width="83.25" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-24" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=cancel;" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-24" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=cancel;" parent="1" vertex="1">
           <mxGeometry x="3752" y="2230" width="33.62" height="33.62" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-26" value="Cortador :" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-26" value="Cortador :" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3364.62" y="4049" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3480" y="4052" width="320" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="gdkcxcR5lFCrZas29xLU-28" value="" style="triangle;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="gdkcxcR5lFCrZas29xLU-28" value="" style="triangle;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3487.29" y="4054" width="18.4" height="20" as="geometry" />
         </mxCell>
       </root>
