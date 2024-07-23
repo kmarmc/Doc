@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class Acabamento
 {
     int Quantidade;
@@ -28,4 +30,5 @@ public class Acabamento
         return NumeroDaOp;
     }
 
+}
 }

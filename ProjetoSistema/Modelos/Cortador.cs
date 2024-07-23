@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class Cortador
 {
     string Nome;
@@ -9,4 +11,5 @@ public class Cortador
     {
         return Nome;
     }
+}
 }

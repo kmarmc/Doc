@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class Almoxarifado
 {
     int Quantidade;
@@ -28,4 +30,5 @@ public class Almoxarifado
         return NumeroDaOp;
     }
 
+}
 }

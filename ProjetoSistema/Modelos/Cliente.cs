@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class Cliente
 {
     string Nome;
@@ -36,4 +38,5 @@ public class Cliente
     {
         return Telefone;
     }
+}
 }

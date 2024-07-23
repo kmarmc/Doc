@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class Costura
 {
     int Quantidade;
@@ -29,3 +31,4 @@ public class Costura
     }
 
 }
+}   

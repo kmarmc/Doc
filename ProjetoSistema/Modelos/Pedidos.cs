@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class Pedidos
 {
     string Nome;
@@ -72,4 +74,5 @@ public class Pedidos
     {
         return ValorTotal;
     }
+}
 }

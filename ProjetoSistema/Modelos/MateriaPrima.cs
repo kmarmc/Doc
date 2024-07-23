@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class MateriaPrima
 {
     string Nome;
@@ -46,4 +48,5 @@ public class MateriaPrima
         return IdMateria;
     }
 
+}
 }

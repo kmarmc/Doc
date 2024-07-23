@@ -1,0 +1,23 @@
+using Models;
+namespace Controles
+{
+    public class ControleBase
+    {
+        public virtual void criar (Registro o)
+        {
+
+        }
+        public virtual void atualizar (Registro o)
+        {
+
+        }
+        public virtual void apagar (int id)
+        {
+
+        }
+        public virtual void ler (int id)
+        {
+            return id;
+        }
+    }
+}

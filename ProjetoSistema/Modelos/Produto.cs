@@ -1,3 +1,5 @@
+namespace Modelos
+{
 public class Produto 
 {
     int NumeroDaOp;
@@ -81,11 +83,5 @@ public class Produto
     {
         return Grade;
     }
-    
-
-    
-
-    
-
-
+}
 }

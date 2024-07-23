@@ -1,4 +1,5 @@
-
+namespace Modelos
+{
 public class Fornecedor
 {
     string Nome;
@@ -65,4 +66,5 @@ public class Fornecedor
     {
         return ValorDeMateria;
     }
+}
 }
