@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T12:19:38.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2-dkChDvEwiGvEig3pZp" version="24.6.0" type="device" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="24.7.4" pages="2">
   <diagram name="Página-1" id="bhXczR_S5o1jz8hCAI9M">
-    <mxGraphModel dx="144" dy="8472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="9288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_OtTeNp_AdRQ9EkmlAUw-1" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="2532.44" y="-3527.26" width="796.12" height="1170" as="geometry" />
+          <mxGeometry x="2490" y="-3542" width="796.12" height="1170" as="geometry" />
         </mxCell>
         <mxCell id="_OtTeNp_AdRQ9EkmlAUw-2" value="Setores" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2732" y="-2694.26" width="400" height="50" as="geometry" />
@@ -5048,7 +5048,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BoBD6ORnWXipkhAOyOj2-231" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2486" y="-4857.5" width="816.4899999999998" height="130" as="geometry" />
+          <mxGeometry x="2484" y="-4858.5" width="816.4899999999998" height="130" as="geometry" />
         </mxCell>
         <mxCell id="BoBD6ORnWXipkhAOyOj2-232" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="BoBD6ORnWXipkhAOyOj2-231" vertex="1">
           <mxGeometry width="816.4899999999998" height="43" as="geometry" />
