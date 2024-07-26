@@ -1,4 +1,4 @@
-using Models;
+using Modelos;
 namespace Controles
 {
     public class ControleBase
@@ -15,9 +15,9 @@ namespace Controles
         {
 
         }
-        public virtual void ler (int id)
+        public virtual Registro ler (int id)
         {
-            return id;
+            return null;
         }
     }
 }

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoSistema.TelaSetores">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            
+            <!-- Título Setores -->
+            <Label Text="SETORES :" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Start" />
+
+            <!-- Espaço entre o título e os itens -->
+            <BoxView HeightRequest="10" />
+
+            <!-- Item Corte -->
+            <Frame BorderColor="Black" 
+                   HeightRequest="40" 
+                   Padding="10">
+                <Label Text="CORTE" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+            </Frame>
+
+            <!-- Item Almoxarifado -->
+            <Frame BorderColor="Black" 
+                   HeightRequest="40" 
+                   Padding="10">
+                <Label Text="ALMOXARIFADO" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+            </Frame>
+
+            <!-- Item Costura -->
+            <Frame BorderColor="Black" 
+                   HeightRequest="40" 
+                   Padding="10">
+                <Label Text="COSTURA" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+            </Frame>
+
+            <!-- Item Silk/Bordado -->
+            <Frame BorderColor="Black" 
+                   HeightRequest="40" 
+                   Padding="10">
+                <Label Text="SILK/BORDADO" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+            </Frame>
+
+            <!-- Item Acabamento -->
+            <Frame BorderColor="Black" 
+                   HeightRequest="40" 
+                   Padding="10">
+                <Label Text="ACABAMENTO" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+            </Frame>
+
+            <!-- Item Estoque -->
+            <Frame BorderColor="Black" 
+                   HeightRequest="40" 
+                   Padding="10">
+                <Label Text="ESTOQUE" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

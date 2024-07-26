@@ -1,3 +1,4 @@
+using Modelos;
 namespace Controles
 {
     public class ControlePedidos : ControleBase
@@ -11,9 +12,9 @@ namespace Controles
     public override void apagar (int id)
     {
     }
-    public override void ler (int id)
+    public override Registro ler (int id)
     {
-        return id;
+        return null;
     }
 
     }

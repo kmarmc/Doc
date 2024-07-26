@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoSistema.TelaPedidos">
+
+    <StackLayout Padding="20">
+        
+        <!-- Título Pedidos -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Label Text="Pedidos:" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="StartAndExpand" />
+            <Image Source="caminho/para/icones.png"
+                   HorizontalOptions="EndAndExpand"
+                   HeightRequest="30"
+                   WidthRequest="30"/>
+            <Button Text="Fazer Cadastro"
+                    HorizontalOptions="End"/>
+        </StackLayout>
+
+        <!-- Espaço entre o título e a tabela -->
+        <BoxView HeightRequest="10" />
+
+        <!-- Cabeçalho da Tabela -->
+        <Grid ColumnSpacing="1" RowSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="CLIENTE" FontAttributes="Bold" Grid.Column="0" />
+            <Label Text="NUMERO DE OP" FontAttributes="Bold" Grid.Column="1" />
+            <Label Text="QUANTIDADE" FontAttributes="Bold" Grid.Column="2" />
+        </Grid>
+
+        <!-- Linhas da Tabela -->
+        <CollectionView ItemsSource="{Binding Pedidos}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnSpacing="1" RowSpacing="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="{Binding Cliente}" Grid.Column="0" />
+                        <Label Text="{Binding NumeroDeOP}" Grid

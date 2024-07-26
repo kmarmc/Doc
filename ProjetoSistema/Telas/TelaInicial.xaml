@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoSistema.TelaInicial">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+
+            <!-- Círculo com o Nome da Empresa -->
+            <Frame WidthRequest="200" HeightRequest="200" 
+                   BorderColor="Black" 
+                   CornerRadius="100" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center">
+                <Label Text="Nome da empresa" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center" 
+                       HorizontalTextAlignment="Center" />
+            </Frame>
+
+            <!-- Espaço entre o círculo e os botões -->
+            <BoxView HeightRequest="20" />
+
+            <!-- Botão Pedidos -->
+            <Button Text="Pedidos" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="200" />
+
+            <!-- Espaço entre os botões -->
+            <BoxView HeightRequest="10" />
+
+            <!-- Botão Matéria-Prima -->
+            <Button Text="Matéria-Prima" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="200" />
+
+            <!-- Espaço entre os botões -->
+            <BoxView HeightRequest="10" />
+
+            <!-- Botão Setores -->
+            <Button Text="Setores" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="200" />
+
+            <!-- Espaço entre os botões -->
+            <BoxView HeightRequest="10" />
+
+            <!-- Botão Clientes -->
+            <Button Text="Clientes" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="200" />
+
+            <!-- Espaço entre os botões -->
+            <BoxView HeightRequest="10" />
+
+            <!-- Botão Fornecedores -->
+            <Button Text="Fornecedores" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="200" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
