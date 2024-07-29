@@ -22,11 +22,4 @@ namespace ProjetoSistema
             BindingContext = this;
         }
     }
-
-    public class Costura
-    {
-        public string QuantLote { get; set; }
-        public string Aviamentos { get; set; }
-        public string NumeroDeOp { get; set; }
-    }
 }
