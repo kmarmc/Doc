@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoSistema.CadastroDeMateriaPrima">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Cadastro de Matéria-Prima"
+                   FontSize="24"
+                   HorizontalOptions="Center" />
+            <Entry x:Name="NomeFornecedorEntry"
+                   Placeholder="Nome do fornecedor :" />
+            <Entry x:Name="TipoDeMateriaEntry"
+                   Placeholder="Tipo de Matéria Prima :" />
+            <Entry x:Name="NomeDaMateriaEntry"
+                   Placeholder="Nome da Matéria-Prima :" />
+            <Entry x:Name="ValorDeMateriaEntry"
+                   Placeholder="Valor de Matéria-Prima :" />
+            <Entry x:Name="UnidadeEntry"
+                   Placeholder="Unidade :" />
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Margin="0,20,0,0">
+                <StackLayout HorizontalOptions="CenterAndExpand"
+                             Padding="10">
+                    <Image Source="cancel.png"
+                           WidthRequest="50"
+                           HeightRequest="50" />
+                    <Button Text="Você tem certeza que deseja cancelar?"
+                            BackgroundColor="Yellow" />
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="Center">
+                        <Button Text="SIM"
+                                BackgroundColor="Red"
+                                TextColor="White" />
+                        <Button Text="NÃO"
+                                BackgroundColor="Gray"
+                                TextColor="White" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand"
+                             Padding="10">
+                    <Image Source="confirm.png"
+                           WidthRequest="50"
+                           HeightRequest="50" />
+                    <Button Text="Você tem certeza que deseja cadastrar?"
+                            BackgroundColor="Yellow" />
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="Center">
+                        <Button Text="SIM"
+                                BackgroundColor="Green"
+                                TextColor="White" />
+                        <Button Text="NÃO"
+                                BackgroundColor="Gray"
+                                TextColor="White" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
