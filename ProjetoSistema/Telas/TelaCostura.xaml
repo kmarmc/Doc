@@ -27,8 +27,8 @@
             <ImageButton Source="search.png" Grid.Row="0" Grid.Column="3" />
 
             <CollectionView Grid.Row="1" Grid.ColumnSpan="4"
-                            x:Name="FornecedoresCollectionView"
-                            ItemsSource="{Binding Fornecedores}">
+                            x:Name="CosturaCollectionView"
+                            ItemsSource="{Binding Costura}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid>
