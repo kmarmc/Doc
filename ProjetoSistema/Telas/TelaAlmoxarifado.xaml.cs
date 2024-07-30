@@ -12,7 +12,7 @@ namespace ProjetoSistema
         {
             InitializeComponent();
 
-            Almoxarifado = new ObservableCollection<Costura>
+            Almoxarifado = new ObservableCollection<Almoxarifado>
             {
                 // Exemplos de dados
                 new Almoxarifado { QuantLote = "QuantLote  1", AviamentosParaEnvio = "AviamentosParaEnvio 1", NumeroDeOp = "123456789" },

@@ -12,7 +12,7 @@ namespace ProjetoSistema
         {
             InitializeComponent();
 
-            Costuras = new ObservableCollection<Bordado>
+            Bordado = new ObservableCollection<Bordado>
             {
                 // Exemplos de dados
                 new Bordado { QuantLote = "QuantLote  1", Linhas = "Linhas 1", NumeroDeOp = "123456789" },
