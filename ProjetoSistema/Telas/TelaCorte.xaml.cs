@@ -22,4 +22,13 @@ namespace ProjetoSistema
             BindingContext = this;
         }
     }
+    
+    void CortadorClicked ( object sender EventArgs args)
+    {
+        string result = await DisplayPromptAsync("Cadastro de Cortador" "Nome:");
+        {
+
+        }
+    }
+
 }
