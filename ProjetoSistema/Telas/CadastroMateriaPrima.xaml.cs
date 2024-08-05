@@ -12,7 +12,7 @@ namespace ProjetoSistema
 
         // Event handlers can be added here for button clicks if needed.
     }
-    void CadClicked ( object sender EventArgs args)
+    void CadClicked ( object sender, EventArgs args)
     {
         var rest = await DisplayAlert ( "Cadastro","Você tem certeza que deseja cadastrar?","sim","não");
         if (resp == "sim")
@@ -26,7 +26,7 @@ namespace ProjetoSistema
     }
      void CancelClicked ( object sender EventArgs args)
     {
-        var rest = await DisplayAlert ( "Cadastro","Você tem certeza que deseja cancelar?","sim" "não")
+        var rest = await DisplayAlert ( "Cadastro","Você tem certeza que deseja cancelar?","sim", "não")
         if (resp == "sim")
         {
 

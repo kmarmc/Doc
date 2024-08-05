@@ -23,9 +23,9 @@ namespace ProjetoSistema
         }
     }
     
-    void CortadorClicked ( object sender EventArgs args)
+    void CortadorClicked ( object sender, EventArgs args)
     {
-        string result = await DisplayPromptAsync("Cadastro de Cortador" "Nome:");
+        string result = await DisplayPromptAsync("Cadastro de Cortador", "Nome:");
         {
 
         }
