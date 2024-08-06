@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using Microsoft.Maui.Controls;
+using ProjetoSistema.Modelos;
 
 namespace ProjetoSistema
 {
@@ -11,21 +12,22 @@ namespace ProjetoSistema
         {
             InitializeComponent();
 
-            Fornecedores = new ObservableCollection<Fornecedor>
-            {
-                // Exemplos de dados
-                new Fornecedor { Nome = "Fornecedor 1", MateriaPrima = "Materia 1", Telefone = "123456789" },
-                new Fornecedor { Nome = "Fornecedor 2", MateriaPrima = "Materia 2", Telefone = "987654321" }
-            };
+           Fornecedores = new ObservableCollection<Fornecedor>();
+            var fornecedor1 = new Fornecedor();
+            fornecedor1.SetNome("jnfjdbg");
+            fornecedor1.SetTipoDeMateria("ncjndoo");
+            fornecedor1.SetTelefone("fdhbd");
+
+            var fornecedor2 = new Fornecedor();
+            fornecedor2.SetNome("bfdhfbh");
+            fornecedor2.SetTipoDeMateria("jmfkngjhn");
+            fornecedor2.SetTelefone("jduif");
+
+
+            Fornecedores.Add(fornecedor1);
+            Fornecedores.Add(fornecedor2);
 
             BindingContext = this;
         }
-    }
-
-    public class Fornecedor
-    {
-        public string Nome { get; set; }
-        public string MateriaPrima { get; set; }
-        public string Telefone { get; set; }
     }
 }

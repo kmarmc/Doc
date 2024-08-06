@@ -12,23 +12,24 @@ namespace ProjetoSistema
         {
             InitializeComponent();
 
-            Corte = new ObservableCollection<Corte>
-            {
-                // Exemplos de dados
-                new Corte { QuantLote = "QuantLote  1", Cortador = "Cortador 1", NumeroDeOp = "123456789" },
-                new Corte { QuantLote  = "QuantLote  2", Cortador = "Cortador 2", NumeroDeOp = "987654321" }
-            };
+          Cortes = new ObservableCollection<Corte>();
+            var corte1 = new Corte();
+            corte1.SetQuantidade(1);
+            corte1.SetCortador("ncjndoo");
+            corte1.SetNumeroDaOp(1);
 
+            var corte2 = new Corte();
+            corte2.SetQuantidade(2);
+            corte2.SetCortador("jmfkngjhn");
+            corte2.SetNumeroDaOp(2);
+
+
+            Cortes.Add(corte1);
+            Cortes.Add(corte2);
+            
             BindingContext = this;
-        }
-    }
-    
-    void CortadorClicked ( object sender, EventArgs args)
-    {
-        string result = await DisplayPromptAsync("Cadastro de Cortador", "Nome:");
-        {
 
-        }
+    }
     }
 
 }

@@ -12,12 +12,22 @@ namespace ProjetoSistema
         {
             InitializeComponent();
 
-            Costuras = new ObservableCollection<Costura>
-            {
-                // Exemplos de dados
-                new Costura { QuantLote = "QuantLote  1", Aviamentos = "Aviamentos 1", NumeroDeOp = "123456789" },
-                new Costura { QuantLote  = "QuantLote  2", Aviamentos = "Aviamentos 2", NumeroDeOp = "987654321" }
-            };
+            Costuras = new ObservableCollection<Costura>();
+            var costura1 = new Costura();
+            costura1.SetQuantidade(1);
+            costura1.SetNumeroDaOp(123);
+            costura1.SetAviamentos("aksjldaskjdlkasjd");
+
+            var costura2 = new Costura();
+            costura2.SetQuantidade(2);
+            costura2.SetNumeroDaOp(321);
+            costura2.SetAviamentos("aksjldaskjdlkasjd");
+
+
+            Costuras.Add(costura1);
+            Costuras.Add(costura2);
+
+
 
             BindingContext = this;
         }

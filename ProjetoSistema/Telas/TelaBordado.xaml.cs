@@ -6,18 +6,26 @@ namespace ProjetoSistema
 {
     public partial class TelaBordado : ContentPage
     {
-        public ObservableCollection<Bordado> Bordado { get; set; }
+        public ObservableCollection<Bordado> Bordados { get; set; }
 
         public TelaBordado()
         {
             InitializeComponent();
 
-            Bordado = new ObservableCollection<Bordado>
-            {
-                // Exemplos de dados
-                new Bordado { QuantLote = "QuantLote  1", Linhas = "Linhas 1", NumeroDeOp = "123456789" },
-                new Bordado { QuantLote  = "QuantLote  2", Linhas = "Linhas 2", NumeroDeOp = "987654321" }
-            };
+            Bordados = new ObservableCollection<Bordado>();
+            var bordado1 = new Bordado();
+            bordado1.SetQuantidade(1);
+            bordado1.SetLinhas("ncjndoo");
+            bordado1.SetNumeroDaOp(1);
+
+            var bordado2 = new Bordado();
+            bordado2.SetQuantidade(2);
+            bordado2.SetLinhas("jmfkngjhn");
+            bordado2.SetNumeroDaOp(2);
+
+
+            Bordados.Add(bordado1);
+            Bordados.Add(bordado2);
 
             BindingContext = this;
         }

@@ -1,6 +1,6 @@
 namespace Modelos
 {
-public class Pedidos
+public class Pedido
 {
     string Nome;
     string Endereco;
@@ -10,6 +10,8 @@ public class Pedidos
     decimal ValorUnidade;
     int Quantidade;
     decimal ValorTotal;
+    string Cliente;
+    int NumeroDaOp;
      public void SetNome (string Nome)
     {
         this.Nome = Nome;
@@ -74,5 +76,22 @@ public class Pedidos
     {
         return ValorTotal;
     }
+      public void SetCliente (string Cliente)
+    {
+        this.Cliente = Cliente;
+    }
+    public string GetCliente ()
+    {
+        return Cliente;
+    }
+    public void SetNumeroDaOp (int NumeroDaOp)
+    {
+        this.NumeroDaOp = NumeroDaOp;
+    }
+    public int GetNumeroDaOp ()
+    {
+        return NumeroDaOp;
+    }
+
 }
 }

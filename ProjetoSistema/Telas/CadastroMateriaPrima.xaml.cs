@@ -11,37 +11,29 @@ namespace ProjetoSistema
         }
 
         // Event handlers can be added here for button clicks if needed.
-    }
-    void CadClicked ( object sender, EventArgs args)
+    
+     async void CadClicked ( object sender, EventArgs args)
     {
-        var rest = await DisplayAlert ( "Cadastro","Você tem certeza que deseja cadastrar?","sim","não");
-        if (resp == "sim")
+        var resp = await DisplayAlert ( "Cadastro","Você tem certeza que deseja cadastrar?","sim","não");
+        if (resp)
         {
 
         }
-         if (resp == "não")
+    }
+   async void CancelClicked ( object sender, EventArgs args)
+    {
+        var resp = await DisplayAlert ( "Cadastro","Você tem certeza que deseja cancelar?","sim", "não");
+        if (resp)
         {
             
         }
     }
-     void CancelClicked ( object sender EventArgs args)
+    async void UnidadeClicked ( object sender, EventArgs args)
     {
-        var rest = await DisplayAlert ( "Cadastro","Você tem certeza que deseja cancelar?","sim", "não")
-        if (resp == "sim")
-        {
-
-        }
-         if (resp == "não")
+        string result = await DisplayPromptAsync("Cadastro de Unidade", "Nome:");
         {
 
         }
     }
-    void UnidadeClicked ( object sender EventArgs args)
-    {
-        string result = await DisplayPromptAsync("Cadastro de Unidade" "Nome:");
-        {
-
-        }
     }
-
 }

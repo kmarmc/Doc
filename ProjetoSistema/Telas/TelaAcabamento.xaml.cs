@@ -6,18 +6,27 @@ namespace ProjetoSistema
 {
     public partial class TelaAcabamento : ContentPage
     {
-        public ObservableCollection<Acabamento> Acabamento { get; set; }
+        public ObservableCollection<Acabamento> Acabamentos { get; set; }
 
         public TelaAcabamento()
         {
             InitializeComponent();
 
-            Acabamento = new ObservableCollection<Acabamento>
-            {
-                // Exemplos de dados
-                new Acabamento { QuantLote = "QuantLote  1", Aviamentos = "Aviamentos 1", NumeroDeOp = "123456789" },
-                new Acabamento { QuantLote  = "QuantLote  2", Aviamentos = "Aviamentos 2", NumeroDeOp = "987654321" }
-            };
+           
+               Acabamentos = new ObservableCollection<Acabamento>();
+            var acabamento1 = new Acabamento();
+            acabamento1.SetQuantidade(1);
+            acabamento1.SetAviamentos("ncjndoo");
+            acabamento1.SetNumeroDaOp(1);
+
+            var acabamento2 = new Acabamento();
+            acabamento2.SetQuantidade(2);
+            acabamento2.SetAviamentos("jmfkngjhn");
+            acabamento2.SetNumeroDaOp(2);
+
+
+            Acabamentos.Add(acabamento2);
+            Acabamentos.Add(acabamento2);
 
             BindingContext = this;
         }

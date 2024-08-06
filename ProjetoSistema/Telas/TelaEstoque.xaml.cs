@@ -6,18 +6,26 @@ namespace ProjetoSistema
 {
     public partial class TelaEstoque : ContentPage
     {
-        public ObservableCollection<Estoque> Estoque { get; set; }
+        public ObservableCollection<Estoque> Estoques { get; set; }
 
         public TelaEstoque()
         {
             InitializeComponent();
 
-            Costuras = new ObservableCollection<Estoque>
-            {
-                // Exemplos de dados
-                new Estoque { QuantCliente = "QuantCliente  1", Cliente = "Cliente 1", NumeroDeOp = "123456789" },
-                new Estoque { QuantCliente  = "QuantCliente  2", Cliente = "Cliente 2", NumeroDeOp = "987654321" }
-            };
+            Estoques = new ObservableCollection<Estoque>();
+            var estoque1 = new Estoque();
+            estoque1.SetQuantidade(1);
+            estoque1.SetCliente("ncjndoo");
+            estoque1.SetNumeroDaOp(1);
+
+            var estoque2 = new Estoque();
+            estoque2.SetQuantidade(2);
+            estoque2.SetCliente("jmfkngjhn");
+            estoque2.SetNumeroDaOp(2);
+
+
+            Estoques.Add(estoque1);
+            Estoques.Add(estoque2);
 
             BindingContext = this;
         }

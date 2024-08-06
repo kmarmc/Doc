@@ -6,27 +6,28 @@ namespace ProjetoSistema
 {
     public partial class TelaMateriaPrima : ContentPage
     {
-        public ObservableCollection<MateriaPrima> MateriaPrima { get; set; }
+        public ObservableCollection<MateriaPrima> MateriaPrimas { get; set; }
 
         public TelaMateriaPrima()
         {
             InitializeComponent();
 
-            MateriaPrima = new ObservableCollection<MateriaPrima>
-            {
-                new MateriaPrima { NumeroDaMateria = "NumeroDaMateria 1", NomeDaMateria = "12345", QuantidadeEmEstoque = "10" },
-                new MateriaPrima { NumeroDaMateria = "NumeroDaMateria 2", NomeDaMateria = "67890", QuantidadeEmEstoque = "20" },
-                // Adicione mais pedidos conforme necessário
-            };
+          MateriaPrimas = new ObservableCollection<MateriaPrima>();
+            var materiaprima1 = new MateriaPrima();
+            materiaprima1.SetIdMateria(1);
+            materiaprima1.SetNome("ncjndoo");
+            materiaprima1.SetQuantidade(1);
+
+            var materiaprima2 = new MateriaPrima();
+            materiaprima2.SetIdMateria(2);
+            materiaprima2.SetNome("jmfkngjhn");
+            materiaprima2.SetQuantidade(2);
+
+
+            MateriaPrimas.Add(materiaprima1);
+            MateriaPrimas.Add(materiaprima2);
 
             BindingContext = this;
         }
-    }
-
-    public class MateriaPrima
-    {
-        public string NumeroDaMateria { get; set; }
-        public string NomeDaMateria { get; set; }
-        public string QuantidadeEmEstoque { get; set; }
     }
 }

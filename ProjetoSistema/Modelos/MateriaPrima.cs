@@ -7,6 +7,7 @@ public class MateriaPrima
     decimal Valor;
     int Unidade;
     int IdMateria;
+    int Quantidade;
      public void SetNome (string Nome)
     {
         this.Nome = Nome;
@@ -46,6 +47,14 @@ public class MateriaPrima
     public int GetIdMateria ()
     {
         return IdMateria;
+    }
+    public void SetQuantidade(int Quantidade)
+    {
+        this.Quantidade = Quantidade;
+    }
+    public int GetQuantidade()
+    {
+            return Quantidade;
     }
 
 }

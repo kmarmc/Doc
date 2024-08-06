@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using Microsoft.Maui.Controls;
+using Modelos;
 
 namespace ProjetoSistema
 {
@@ -11,21 +12,23 @@ namespace ProjetoSistema
         {
             InitializeComponent();
 
-            Pedidos = new ObservableCollection<Pedido>
-            {
-                new Pedido { Cliente = "Cliente 1", NumeroDeOP = "12345", Quantidade = "10" },
-                new Pedido { Cliente = "Cliente 2", NumeroDeOP = "67890", Quantidade = "20" },
-                // Adicione mais pedidos conforme necessário
-            };
+           
+            Pedidos = new ObservableCollection<Pedido>();
+            var pedido1 = new Pedido();
+            pedido1.SetQuantidade(1);
+            pedido1.SetCliente("ncjndoo");
+            pedido1.SetNumeroDaOp(1);
+
+            var pedido2 = new Pedido();
+            pedido2.SetQuantidade(2);
+            pedido2.SetCliente("jmfkngjhn");
+            pedido2.SetNumeroDaOp(2);
+
+
+            Pedidos.Add(pedido1);
+            Pedidos.Add(pedido2);
 
             BindingContext = this;
-        }
     }
-
-    public class Pedido
-    {
-        public string Cliente { get; set; }
-        public string NumeroDeOP { get; set; }
-        public string Quantidade { get; set; }
-    }
+}
 }
