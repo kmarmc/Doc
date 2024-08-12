@@ -1,15 +1,8 @@
 namespace Modelos
-{
+
 public class Cortador
 {
-    string Nome;
-     public void SetNome (string Nome)
-    {
-        this.Nome = Nome;
-    }
-    public string GetNome ()
-    {
-        return Nome;
-    }
-}
+    {BsonId}
+    public int id {get;set;}
+    public string Nome {get;set;}
 }

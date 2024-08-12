@@ -1,34 +1,11 @@
 namespace Modelos
-{
+
 public class Almoxarifado
 {
-    int Quantidade;
-    string MateriaisEnvio;
-    int NumeroDaOp;
-      public void SetQuantidade (int Quantidade)
-    {
-        this.Quantidade = Quantidade;
-    }
-    public int GetQuantidade ()
-    {
-        return Quantidade;
-    }
-      public void SetMateriaisEnvio (string MateriaisEnvio)
-    {
-        this.MateriaisEnvio = MateriaisEnvio;
-    }
-    public string GetMateriaisEnvio ()
-    {
-        return MateriaisEnvio;
-    }
-    public void SetNumeroDaOp (int NumeroDaOp)
-    {
-        this.NumeroDaOp = NumeroDaOp;
-    }
-    public int GetNumeroDaOp ()
-    {
-        return NumeroDaOp;
-    }
-
-}
+    {BsonId}
+     public int id {get;set;}
+    public int Quantidade {get;set;}
+    public string MateriaisEnvio {get;set;}
+    public int NumeroDaOp {get;set;}
+   
 }
