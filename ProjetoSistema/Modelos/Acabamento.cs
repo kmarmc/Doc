@@ -1,8 +1,10 @@
+using LiteDB;
+
 namespace Modelos
 
 public class Acabamento
 {
-    {BsonId}
+    [BsonId]
     public int id {get;set;}
     public int Quantidade{get;set;}
     public string Aviamentos{get;set;}

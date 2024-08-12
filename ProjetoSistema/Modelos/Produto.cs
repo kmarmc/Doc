@@ -1,8 +1,10 @@
-namespace Modelos
+using LiteDB;
+
+namespace Modelos;
 
 public class Produto 
 {
-     {BsonId}
+    [BsonId]
     public int id {get;set;}
     int NumeroDaOp{get;set;}
     string NomeDoTecido{get;set;}

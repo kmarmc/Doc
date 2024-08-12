@@ -1,8 +1,10 @@
+using LiteDB;
+
 namespace Modelos
 
 public class Corte
 {
-    {BsonId}
+    [BsonId]
     public int id {get;set;}
     public int Quantidade{get;set;}
     public string Cortador{get;set;}

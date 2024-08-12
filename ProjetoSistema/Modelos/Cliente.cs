@@ -1,7 +1,9 @@
+using LiteDB;
+
 namespace Modelos
 public class Cliente
 {
-    {BsonId}
+    [BsonId]
    public int id {get;set;}
    public string Nome{get; set;}
    public string Endereco{get;set;}
