@@ -14,14 +14,14 @@ namespace ProjetoSistema
 
             Bordados = new ObservableCollection<Bordado>();
             var bordado1 = new Bordado();
-            bordado1.SetQuantidade(1);
-            bordado1.SetLinhas("ncjndoo");
-            bordado1.SetNumeroDaOp(1);
+            bordado1.Quantidade = 1;
+            bordado1.Linhas = "ncjndoo";
+            bordado1.NumeroDaOp = 1;
 
             var bordado2 = new Bordado();
-            bordado2.SetQuantidade(2);
-            bordado2.SetLinhas("jmfkngjhn");
-            bordado2.SetNumeroDaOp(2);
+            bordado2.Quantidade = 2;
+            bordado2.Linhas = "jmfkngjhn";
+            bordado2.NumeroDaOp = 2;
 
 
             Bordados.Add(bordado1);

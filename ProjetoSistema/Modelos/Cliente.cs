@@ -1,6 +1,7 @@
 using LiteDB;
 
 namespace Modelos
+{
 public class Cliente
 {
     [BsonId]
@@ -9,5 +10,5 @@ public class Cliente
    public string Endereco{get;set;}
    public string Email{get;set;}
    public string Telefone{get;set;}
-    
+}   
 }

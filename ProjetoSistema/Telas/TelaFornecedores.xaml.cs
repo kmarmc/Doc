@@ -14,14 +14,14 @@ namespace ProjetoSistema
 
            Fornecedores = new ObservableCollection<Fornecedor>();
             var fornecedor1 = new Fornecedor();
-            fornecedor1.SetNome("jnfjdbg");
-            fornecedor1.SetTipoDeMateria("ncjndoo");
-            fornecedor1.SetTelefone("fdhbd");
+            fornecedor1.Nome = "jnfjdbg";
+            fornecedor1.TipoDeMateria = "ncjndoo";
+            fornecedor1.Telefone = "fdhbd";
 
             var fornecedor2 = new Fornecedor();
-            fornecedor2.SetNome("bfdhfbh");
-            fornecedor2.SetTipoDeMateria("jmfkngjhn");
-            fornecedor2.SetTelefone("jduif");
+            fornecedor2.Nome = "bfdhfbh";
+            fornecedor2.TipoDeMateria = "jmfkngjhn";
+            fornecedor2.Telefone = "jduif";
 
 
             Fornecedores.Add(fornecedor1);

@@ -14,14 +14,14 @@ namespace ProjetoSistema
 
           MateriaPrimas = new ObservableCollection<MateriaPrima>();
             var materiaprima1 = new MateriaPrima();
-            materiaprima1.SetIdMateria(1);
-            materiaprima1.SetNome("ncjndoo");
-            materiaprima1.SetQuantidade(1);
+            materiaprima1.IdMateria = 1;
+            materiaprima1.Nome = "ncjndoo";
+            materiaprima1.Quantidade = 1;
 
             var materiaprima2 = new MateriaPrima();
-            materiaprima2.SetIdMateria(2);
-            materiaprima2.SetNome("jmfkngjhn");
-            materiaprima2.SetQuantidade(2);
+            materiaprima2.IdMateria = 2;
+            materiaprima2.Nome = "jmfkngjhn";
+            materiaprima2.Quantidade = 2;
 
 
             MateriaPrimas.Add(materiaprima1);

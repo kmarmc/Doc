@@ -1,6 +1,7 @@
 using LiteDB;
 
 namespace Modelos
+{
     public class Costura
     {
         [BsonId]
@@ -9,3 +10,4 @@ namespace Modelos
         public string Aviamentos{get;set;}
         public int NumeroDaOp{get;set;}
     }
+}    

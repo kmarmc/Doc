@@ -14,14 +14,14 @@ namespace ProjetoSistema
 
             Estoques = new ObservableCollection<Estoque>();
             var estoque1 = new Estoque();
-            estoque1.SetQuantidade(1);
-            estoque1.SetCliente("ncjndoo");
-            estoque1.SetNumeroDaOp(1);
+            estoque1.Quantidade = 1;
+            estoque1.Cliente = "ncjndoo";
+            estoque1.NumeroDaOp = 1;
 
             var estoque2 = new Estoque();
-            estoque2.SetQuantidade(2);
-            estoque2.SetCliente("jmfkngjhn");
-            estoque2.SetNumeroDaOp(2);
+            estoque2.Quantidade = 2;
+            estoque2.Cliente = "jmfkngjhn";
+            estoque2.NumeroDaOp = 2;
 
 
             Estoques.Add(estoque1);

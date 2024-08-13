@@ -1,9 +1,9 @@
 using LiteDB;
-using ProjetoSistema.Modelos;
+using Modelos;
 
-namespace ControleBase;
+namespace Controles;
 
-public class ControleBase
+public class ControleBase 
 {
   //----------------------------------------------------------------------------
 

@@ -14,14 +14,14 @@ namespace ProjetoSistema
 
                Almoxarifados = new ObservableCollection<Almoxarifado>();
             var almoxarifado1 = new Almoxarifado();
-            almoxarifado1.SetQuantidade(1);
-            almoxarifado1.SetMateriaisEnvio("ncjndoo");
-            almoxarifado1.SetNumeroDaOp(1);
+            almoxarifado1.Quantidade = 1;
+            almoxarifado1.MateriaisEnvio = "ncjndoo";
+            almoxarifado1.NumeroDaOp = 1;
 
             var almoxarifado2 = new Almoxarifado();
-            almoxarifado2.SetQuantidade(2);
-            almoxarifado2.SetMateriaisEnvio("jmfkngjhn");
-            almoxarifado2.SetNumeroDaOp(2);
+            almoxarifado2.Quantidade = 2;
+            almoxarifado2.MateriaisEnvio = "jmfkngjhn";
+            almoxarifado2.NumeroDaOp = 2;
 
 
             Almoxarifados.Add(almoxarifado1);

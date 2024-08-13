@@ -1,6 +1,7 @@
 using LiteDB;
 
 namespace Modelos
+{
 public class Pedido
 {
      [BsonId]
@@ -15,4 +16,5 @@ public class Pedido
     public decimal ValorTotal{get;set;}
     public string Cliente{get;set;}
     public int NumeroDaOp{get;set;}
+}
 }

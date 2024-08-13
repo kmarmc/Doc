@@ -15,14 +15,14 @@ namespace ProjetoSistema
            
                Acabamentos = new ObservableCollection<Acabamento>();
             var acabamento1 = new Acabamento();
-            acabamento1.SetQuantidade(1);
-            acabamento1.SetAviamentos("ncjndoo");
-            acabamento1.SetNumeroDaOp(1);
+            acabamento1.Quantidade = 1;
+            acabamento1.Aviamentos = "ncjndoo";
+            acabamento1.NumeroDaOp = 1;
 
             var acabamento2 = new Acabamento();
-            acabamento2.SetQuantidade(2);
-            acabamento2.SetAviamentos("jmfkngjhn");
-            acabamento2.SetNumeroDaOp(2);
+            acabamento2.Quantidade = 2;
+            acabamento2.Aviamentos = "jmfkngjhn";
+            acabamento2.NumeroDaOp = 2;
 
 
             Acabamentos.Add(acabamento2);

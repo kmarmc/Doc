@@ -1,7 +1,7 @@
 using LiteDB;
 
-namespace Modelos;
-
+namespace Modelos
+{
 public class Produto 
 {
     [BsonId]
@@ -15,4 +15,5 @@ public class Produto
     string Cortador{get;set;}
     string Estampa{get;set;}
     string Grade{get;set;}
+}
 }

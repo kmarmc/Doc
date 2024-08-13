@@ -1,7 +1,7 @@
 using LiteDB;
 
 namespace Modelos
-
+{
 public class Almoxarifado
 {
     [BsonId]
@@ -9,5 +9,5 @@ public class Almoxarifado
     public int Quantidade {get;set;}
     public string MateriaisEnvio {get;set;}
     public int NumeroDaOp {get;set;}
-   
+}
 }

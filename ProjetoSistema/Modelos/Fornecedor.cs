@@ -1,7 +1,7 @@
 using LiteDB;
 
 namespace ProjetoSistema.Modelos
-
+{
     public class Fornecedor
     {
         [BsonId]
@@ -14,3 +14,4 @@ namespace ProjetoSistema.Modelos
         public string NomeDeMateria{get;set;}
         public decimal ValorDeMateria{get;set;}
     }
+}    

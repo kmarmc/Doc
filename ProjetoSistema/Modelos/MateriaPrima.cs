@@ -1,7 +1,7 @@
 using LiteDB;
 
 namespace Modelos
-
+{
 public class MateriaPrima
 {
      [BsonId]
@@ -12,5 +12,5 @@ public class MateriaPrima
     public int Unidade{get;set;}
     public int IdMateria{get;set;}
     public int Quantidade{get;set;}
-    
+}   
 }

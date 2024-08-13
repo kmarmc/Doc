@@ -1,7 +1,7 @@
 using LiteDB;
 
 namespace Modelos
-
+{
 public class Bordado
 {
     [BsonId]
@@ -10,4 +10,5 @@ public class Bordado
     string Linhas {get;set;}
     int NumeroDaOp {get;set;}
      
+}
 }

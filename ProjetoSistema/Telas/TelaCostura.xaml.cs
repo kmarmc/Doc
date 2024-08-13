@@ -14,14 +14,14 @@ namespace ProjetoSistema
 
             Costuras = new ObservableCollection<Costura>();
             var costura1 = new Costura();
-            costura1.SetQuantidade(1);
-            costura1.SetNumeroDaOp(123);
-            costura1.SetAviamentos("aksjldaskjdlkasjd");
+            costura1.Quantidade = 1;
+            costura1.NumeroDaOp = 123;
+            costura1.Aviamentos = "aksjldaskjdlkasjd";
 
             var costura2 = new Costura();
-            costura2.SetQuantidade(2);
-            costura2.SetNumeroDaOp(321);
-            costura2.SetAviamentos("aksjldaskjdlkasjd");
+            costura2.Quantidade = 2;
+            costura2.NumeroDaOp = 321;
+            costura2.Aviamentos = "aksjldaskjdlkasjd";
 
 
             Costuras.Add(costura1);

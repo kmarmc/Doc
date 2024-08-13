@@ -14,14 +14,14 @@ namespace ProjetoSistema
 
           Cortes = new ObservableCollection<Corte>();
             var corte1 = new Corte();
-            corte1.SetQuantidade(1);
-            corte1.SetCortador("ncjndoo");
-            corte1.SetNumeroDaOp(1);
+            corte1.Quantidade = 1;
+            corte1.Cortador = "ncjndoo";
+            corte1.NumeroDaOp = 1;
 
             var corte2 = new Corte();
-            corte2.SetQuantidade(2);
-            corte2.SetCortador("jmfkngjhn");
-            corte2.SetNumeroDaOp(2);
+            corte2.Quantidade = 2;
+            corte2.Cortador = "jmfkngjhn";
+            corte2.NumeroDaOp = 2;
 
 
             Cortes.Add(corte1);
