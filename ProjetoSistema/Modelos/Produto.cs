@@ -5,7 +5,7 @@ namespace Modelos
 public class Produto 
 {
     [BsonId]
-    public int id {get;set;}
+    public int Id {get;set;}
     int NumeroDaOp{get;set;}
     string NomeDoTecido{get;set;}
     decimal QuantidadeDeTecido{get;set;} 

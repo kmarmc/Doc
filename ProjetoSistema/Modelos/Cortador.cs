@@ -5,7 +5,7 @@ namespace Modelos
 public class Cortador
 {
     [BsonId]
-    public int id {get;set;}
+    public int Id {get;set;}
     public string Nome {get;set;}
 }
 }

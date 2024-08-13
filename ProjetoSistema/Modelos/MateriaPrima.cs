@@ -5,7 +5,7 @@ namespace Modelos
 public class MateriaPrima
 {
      [BsonId]
-    public int id {get;set;}
+    public int Id {get;set;}
     public string Nome{get;set;}
     public string Tipo{get;set;}
     public decimal Valor{get;set;}

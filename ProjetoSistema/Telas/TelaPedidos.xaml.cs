@@ -17,7 +17,7 @@ namespace ProjetoSistema
             var pedido1 = new Pedido();
             pedido1.Quantidade = 1;
             pedido1.Cliente = "ncjndoo";
-            pedido1.SetNumeroDaOp = 1;
+            pedido1.NumeroDaOp = 1;
 
             var pedido2 = new Pedido();
             pedido2.Quantidade = 2;
