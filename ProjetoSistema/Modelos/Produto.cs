@@ -6,14 +6,14 @@ public class Produto : Registro
 {
     [BsonId]
     public int Id {get;set;}
-    int NumeroDaOp{get;set;}
-    string NomeDoTecido{get;set;}
-    decimal QuantidadeDeTecido{get;set;} 
-    decimal Preco{get;set;}
-    string Linhas{get;set;}
-    string Aviamentos{get;set;}
-    string Cortador{get;set;}
-    string Estampa{get;set;}
-    string Grade{get;set;}
+    public int NumeroDaOp{get;set;}
+    public string NomeDoTecido{get;set;}
+    public decimal QuantidadeDeTecido{get;set;} 
+    public decimal Preco{get;set;}
+    public string Linhas{get;set;}
+    public string Aviamentos{get;set;}
+    public string Cortador{get;set;}
+    public string Estampa{get;set;}
+    public string Grade{get;set;}
 }
 }
