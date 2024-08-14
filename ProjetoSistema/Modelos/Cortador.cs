@@ -2,7 +2,7 @@ using LiteDB;
 
 namespace Modelos
 {
-public class Cortador
+public class Cortador : Registro
 {
     [BsonId]
     public int Id {get;set;}

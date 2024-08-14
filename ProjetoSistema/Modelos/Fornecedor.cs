@@ -1,8 +1,9 @@
 using LiteDB;
+using Modelos;
 
 namespace ProjetoSistema.Modelos
 {
-    public class Fornecedor
+    public class Fornecedor : Registro
     {
         [BsonId]
         public int Id {get;set;}
