@@ -6,6 +6,7 @@ public class Produto : Registro
 {
     [BsonId]
     public int Id {get;set;}
+    public string Nome{get;set;}
     public int NumeroDaOp{get;set;}
     public string NomeDoTecido{get;set;}
     public decimal QuantidadeDeTecido{get;set;} 

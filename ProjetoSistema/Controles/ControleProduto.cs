@@ -25,7 +25,7 @@ public class ControleProduto : ControleBase
   public virtual List<Produto>? LerTodos()
   {
     var tabela = liteDB.GetCollection<Produto>(NomeDaTabela);
-    return new List<Produto>(tabela.FindAll().OrderBy(d => d.Sobrenome));
+    return new List<Produto>(tabela.FindAll().OrderBy(d => d.Nome));
   }
 
   //----------------------------------------------------------------------------

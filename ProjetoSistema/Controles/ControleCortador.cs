@@ -25,7 +25,7 @@ public class ControleCortador : ControleBase
   public virtual List<Cortador>? LerTodos()
   {
     var tabela = liteDB.GetCollection<Cortador>(NomeDaTabela);
-    return new List<Cortador>(tabela.FindAll().OrderBy(d => d.Sobrenome));
+    return new List<Cortador>(tabela.FindAll().OrderBy(d => d.Nome));
   }
 
   //----------------------------------------------------------------------------
