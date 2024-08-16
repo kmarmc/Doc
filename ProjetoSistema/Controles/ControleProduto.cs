@@ -41,7 +41,7 @@ public class ControleProduto : ControleBase
   public virtual void CriarOuAtualizar(Produto Produto1)
   {
     var collection = liteDB.GetCollection<Produto>(NomeDaTabela);
-    collection.Upsert(Produto);
+    collection.Upsert(Produto1);
   }
 
   //----------------------------------------------------------------------------

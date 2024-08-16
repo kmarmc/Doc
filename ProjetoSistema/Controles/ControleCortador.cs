@@ -41,7 +41,7 @@ public class ControleCortador : ControleBase
   public virtual void CriarOuAtualizar(Cortador cortador)
   {
     var collection = liteDB.GetCollection<Cortador>(NomeDaTabela);
-    collection.Upsert(Cortador);
+    collection.Upsert(cortador);
   }
 
   //----------------------------------------------------------------------------

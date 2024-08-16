@@ -38,15 +38,12 @@ public class ControlePedido : ControleBase
 
   //----------------------------------------------------------------------------
 
-  public virtual void CriarOuAtualizar(Pedido Pedido1)
+  public virtual void CriarOuAtualizar(Pedido pedido)
   {
     var collection = liteDB.GetCollection<Pedido>(NomeDaTabela);
-    collection.Upsert(Pedido);
+    collection.Upsert(pedido);
   }
 
   //----------------------------------------------------------------------------
 }
 
-public class Pedido
-{
-}

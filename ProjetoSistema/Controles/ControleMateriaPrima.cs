@@ -41,7 +41,7 @@ public class ControleMateriaPrima : ControleBase
   public virtual void CriarOuAtualizar(MateriaPrima materiaPrima1)
   {
     var collection = liteDB.GetCollection<MateriaPrima>(NomeDaTabela);
-    collection.Upsert(MateriaPrima);
+    collection.Upsert(materiaPrima1);
   }
 
   //----------------------------------------------------------------------------
