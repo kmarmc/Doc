@@ -2,11 +2,24 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoSistema.TelaPedidos">
-    <StackLayout Padding="20">
+    <VerticalStackLayout Padding="20">
         <Label Text="Pedidos" 
                FontSize="24"
                HorizontalOptions="Center" 
                Padding="0,10,0,10"/>
+
+            <Button Text="Voltar"
+                    FontAttributes="Bold"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Clicked="Voltar"/>
+            <Button Text="Cadastro"
+                    FontAttributes="Bold"
+                    VerticalOptions="Start"
+                    HorizontalOptions="End"
+                    Clicked="Cadastrar"/>
+
+        
 
         <Grid>
             <Grid.RowDefinitions>
@@ -46,5 +59,5 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </Grid>
-    </StackLayout>
+    </VerticalStackLayout>
 </ContentPage>

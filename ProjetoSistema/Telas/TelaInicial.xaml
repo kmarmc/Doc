@@ -32,7 +32,7 @@
 
             <!-- Botão Matéria-Prima -->
             <Button Text="Matéria-Prima" 
-                    Clicked="EntrarTelaPedido"    
+                    Clicked="EntrarTelaMateriaPrima"    
                     HorizontalOptions="Center" 
                     WidthRequest="200" />
 
