@@ -15,6 +15,11 @@
                    Placeholder="E-mail :" />
             <Entry x:Name="TelefoneEntry"
                    Placeholder="Telefone :" />
+            <Button Text="Voltar"
+                    FontAttributes="Bold"
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    Clicked="Voltar"/>
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Margin="0,20,0,0">

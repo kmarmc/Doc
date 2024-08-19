@@ -25,6 +25,11 @@ namespace ProjetoSistema
         if (Application.Current != null)
         Application.Current.MainPage = new TelaSetores();
     }
+    private void EntrarTelaCliente(object sender, EventArgs args)
+    {
+        if (Application.Current != null)
+        Application.Current.MainPage = new TelaCliente();
+    }
     private void EntrarTelaFornecedores(object sender, EventArgs args)
     {
         if (Application.Current != null)

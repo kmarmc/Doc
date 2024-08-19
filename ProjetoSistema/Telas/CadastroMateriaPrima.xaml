@@ -17,6 +17,11 @@
                    Placeholder="Valor de Matéria-Prima :" />
             <Entry x:Name="UnidadeEntry"
                    Placeholder="Unidade :" />
+            <Button Text="Voltar"
+                    FontAttributes="Bold"
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    Clicked="Voltar"/>
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Margin="0,20,0,0">

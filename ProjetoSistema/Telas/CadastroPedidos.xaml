@@ -23,6 +23,11 @@
                    Placeholder="Quantidade :" />
             <Entry x:Name="ValorMateriaPrimaEntry"
                    Placeholder="Valor Total :" />
+            <Button Text="Voltar"
+                    FontAttributes="Bold"
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    Clicked="Voltar"/>
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Margin="0,20,0,0">

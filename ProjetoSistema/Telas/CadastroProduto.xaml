@@ -25,6 +25,11 @@
                    Placeholder="Estampas :" />
             <Entry x:Name="GradeEntry"
                    Placeholder="Grade :" />
+            <Button Text="Voltar"
+                    FontAttributes="Bold"
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    Clicked="Voltar"/>
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Margin="0,20,0,0">

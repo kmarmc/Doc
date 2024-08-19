@@ -50,7 +50,8 @@
 
             <!-- Botão Clientes -->
             <Button Text="Clientes"      
-                    HorizontalOptions="Center" 
+                    HorizontalOptions="Center"
+                    Clicked="EntrarTelaCliente"
                     WidthRequest="200" />
 
             <!-- Espaço entre os botões -->

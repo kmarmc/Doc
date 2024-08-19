@@ -18,7 +18,8 @@
             <Frame BorderColor="Black" 
                    HeightRequest="40" 
                    Padding="10">
-                <Label Text="CORTE" 
+                <Button Text="CORTE" 
+                       Clicked="EntrarTelaCorte"
                        VerticalOptions="Center" 
                        HorizontalOptions="Start" />
             </Frame>
@@ -27,7 +28,7 @@
             <Frame BorderColor="Black" 
                    HeightRequest="40" 
                    Padding="10">
-                <Label Text="ALMOXARIFADO" 
+                <Button Text="ALMOXARIFADO" 
                        VerticalOptions="Center" 
                        HorizontalOptions="Start" />
             </Frame>
@@ -36,7 +37,8 @@
             <Frame BorderColor="Black" 
                    HeightRequest="40" 
                    Padding="10">
-                <Label Text="COSTURA" 
+                <Button Text="COSTURA" 
+
                        VerticalOptions="Center" 
                        HorizontalOptions="Start" />
             </Frame>
@@ -45,7 +47,7 @@
             <Frame BorderColor="Black" 
                    HeightRequest="40" 
                    Padding="10">
-                <Label Text="SILK/BORDADO" 
+                <Button Text="SILK/BORDADO" 
                        VerticalOptions="Center" 
                        HorizontalOptions="Start" />
             </Frame>
@@ -54,7 +56,7 @@
             <Frame BorderColor="Black" 
                    HeightRequest="40" 
                    Padding="10">
-                <Label Text="ACABAMENTO" 
+                <Button Text="ACABAMENTO" 
                        VerticalOptions="Center" 
                        HorizontalOptions="Start" />
             </Frame>
@@ -63,7 +65,7 @@
             <Frame BorderColor="Black" 
                    HeightRequest="40" 
                    Padding="10">
-                <Label Text="ESTOQUE" 
+                <Button Text="ESTOQUE" 
                        VerticalOptions="Center" 
                        HorizontalOptions="Start" />
 

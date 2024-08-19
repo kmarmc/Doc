@@ -14,5 +14,11 @@ namespace ProjetoSistema
         if (Application.Current != null)
         Application.Current.MainPage = new TelaInicial();
     }
+    private void EntrarTelaCorte(object sender, EventArgs args)
+    {
+        if (Application.Current != null)
+        Application.Current.MainPage = new TelaCorte();
+    
     }
+}
 }
