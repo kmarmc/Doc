@@ -31,5 +31,10 @@ namespace ProjetoSistema
 
             BindingContext = this;
         }
+         private void Voltar(object sender, EventArgs args)
+    {
+        if (Application.Current != null)
+        Application.Current.MainPage = new TelaInicial();
+    }
     }
 }

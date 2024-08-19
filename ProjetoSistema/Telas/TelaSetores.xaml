@@ -16,58 +16,88 @@
 
             <!-- Item Corte -->
             <Frame BorderColor="Black" 
-                   HeightRequest="40" 
-                   Padding="10">
+                     HorizontalOptions="Fill"
+                   HeightRequest="50" 
+                   Padding="0">
+              <Grid>
                 <Button Text="CORTE" 
+                        TextColor="Black"
                        Clicked="EntrarTelaCorte"
+                       BackgroundColor="Transparent"
+                       HeightRequest="50"
                        VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
+                       HorizontalOptions="Fill" />
+                       </Grid>
             </Frame>
 
             <!-- Item Almoxarifado -->
             <Frame BorderColor="Black" 
-                   HeightRequest="40" 
-                   Padding="10">
+                   HeightRequest="50" 
+                   Padding="0">
+              <Grid>
                 <Button Text="ALMOXARIFADO" 
+                        TextColor="Black"
+                        Clicked="EntrarTelaAlmoxarifado"
+                        BackgroundColor="Transparent"    
                        VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
+                       HorizontalOptions="Fill" />
+                       </Grid>
             </Frame>
 
             <!-- Item Costura -->
             <Frame BorderColor="Black" 
-                   HeightRequest="40" 
-                   Padding="10">
+                   HeightRequest="50" 
+                   Padding="0">
+              <Grid>
                 <Button Text="COSTURA" 
-
+                        TextColor="Black"    
+                       Clicked="EntrarTelaCostura" 
+                       BackgroundColor="Transparent"    
                        VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
+                       HorizontalOptions="Fill" />
+              </Grid>         
             </Frame>
 
             <!-- Item Silk/Bordado -->
             <Frame BorderColor="Black" 
-                   HeightRequest="40" 
-                   Padding="10">
+                   HeightRequest="50" 
+                   Padding="0">
+              <Grid>
                 <Button Text="SILK/BORDADO" 
+                        TextColor="Black"    
+                        Clicked="EntrarTelaBordado" 
+                        BackgroundColor="Transparent"           
                        VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
+                       HorizontalOptions="Fill" />
+              </Grid>         
             </Frame>
 
             <!-- Item Acabamento -->
             <Frame BorderColor="Black" 
-                   HeightRequest="40" 
-                   Padding="10">
+                   HeightRequest="50" 
+                   Padding="0">
+               <Grid>    
                 <Button Text="ACABAMENTO" 
+                        TextColor="Black"    
+                        Clicked="EntrarTelaAcabamento"
+                        BackgroundColor="Transparent"     
                        VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
+                       HorizontalOptions="Fill" />
+               </Grid>        
             </Frame>
 
             <!-- Item Estoque -->
             <Frame BorderColor="Black" 
-                   HeightRequest="40" 
-                   Padding="10">
+                   HeightRequest="50" 
+                   Padding="0">
+              <Grid>     
                 <Button Text="ESTOQUE" 
+                        TextColor="Black"    
+                      Clicked="EntrarTelaEstoque"
+                      BackgroundColor="Transparent" 
                        VerticalOptions="Center" 
-                       HorizontalOptions="Start" />
+                       HorizontalOptions="Fill" />
+              </Grid>         
 
             </Frame>
 

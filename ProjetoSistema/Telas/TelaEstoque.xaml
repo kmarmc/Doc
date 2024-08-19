@@ -7,6 +7,12 @@
                FontSize="24"
                HorizontalOptions="Center" 
                Padding="0,10,0,10"/>
+        <Button Text="Voltar"
+                    FontAttributes="Bold"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Clicked="Voltar"/>
+
 
         <Grid>
             <Grid.RowDefinitions>
