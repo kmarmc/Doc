@@ -7,6 +7,10 @@
             <Label Text="Cadastro de Cliente"
                    FontSize="24"
                    HorizontalOptions="Center" />
+            <Label Text="ID:"
+                   HorizontalOptions="Center" />
+            <Label x:Name="IdLabel"/>
+                          
             <Entry x:Name="NomeEntry"
                    Placeholder="Nome :" />
             <Entry x:Name="EnderecoEntry"

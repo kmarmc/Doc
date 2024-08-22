@@ -36,7 +36,7 @@ namespace ProjetoSistema
         {
             if (await VerificarDados())
             {
-                var cliente = new Modelos.Cliente();
+                var cliente = new Cliente();
             if (!String.IsNullOrEmpty(IdLabel.Text))
                 cliente.Id = int.Parse(IdLabel.Text);
             else
@@ -48,6 +48,7 @@ namespace ProjetoSistema
 
             controleCliente.CriarOuAtualizar(cliente);
             await DisplayAlert("Salvar", "Dados salvos com sucesso!", "OK");
+            }
         }
          private async Task<bool> VerificarDados()
         {
@@ -60,12 +61,12 @@ namespace ProjetoSistema
             
             else if (String.IsNullOrEmpty(EnderecoEntry.Text))
             {
-                await DisplayAlert("Cadastrar", "O campo Sobrenome é obrigatório", "OK");
+                await DisplayAlert("Cadastrar", "O campo Endereço é obrigatório", "OK");
                 return false;
             }
             else if (String.IsNullOrEmpty(EmailEntry.Text))
             {
-                await DisplayAlert("Cadastrar", "O campo Telefone é obrigatório", "OK");
+                await DisplayAlert("Cadastrar", "O campo Email é obrigatório", "OK");
                 return false;
             }
             else if (String.IsNullOrEmpty(TelefoneEntry.Text))
@@ -78,4 +79,3 @@ namespace ProjetoSistema
         }
         }
     }
-}
