@@ -7,6 +7,10 @@
             <Label Text="Cadastro de Matéria-Prima"
                    FontSize="24"
                    HorizontalOptions="Center" />
+            <Label Text="ID:"
+                   HorizontalOptions="Center" />
+            <Label x:Name="IdLabel"/>
+
             <Entry x:Name="NomeFornecedorEntry"
                    Placeholder="Nome do fornecedor :" />
             <Entry x:Name="TipoDeMateriaEntry"
@@ -22,6 +26,13 @@
                     VerticalOptions="End"
                     HorizontalOptions="End"
                     Clicked="Voltar"/>
+          <Button Text="Deletar"
+                   TextColor="White"
+                   Clicked="DeletarMateriaPrima"/>
+          <Button Text="Salvar"
+                   TextColor="White"
+                   Clicked="SalvarMateriaPrima"/>         
+                    
        </StackLayout>
     </ScrollView>
 </ContentPage>

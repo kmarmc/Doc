@@ -7,6 +7,10 @@
             <Label Text="Cadastro de Pedidos"
                    FontSize="24"
                    HorizontalOptions="Center" />
+            <Label Text="ID:"
+                   HorizontalOptions="Center" />
+            <Label x:Name="IdLabel"/>
+
             <Entry x:Name="NomeEntry"
                    Placeholder="Nome :" />
             <Entry x:Name="EnderecoEntry"
@@ -28,6 +32,13 @@
                     VerticalOptions="End"
                     HorizontalOptions="End"
                     Clicked="Voltar"/>
+          <Button Text="Deletar"
+                   TextColor="White"
+                   Clicked="DeletarPedido"/>
+          <Button Text="Salvar"
+                   TextColor="White"
+                   Clicked="SalvarPedido"/>         
+
         </StackLayout>
     </ScrollView>
 </ContentPage>

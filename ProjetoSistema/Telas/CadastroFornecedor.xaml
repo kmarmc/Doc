@@ -7,6 +7,10 @@
             <Label Text="Cadastro de Fornecedor"
                    FontSize="24"
                    HorizontalOptions="Center" />
+            <Label Text="ID:"
+                   HorizontalOptions="Center" />
+            <Label x:Name="IdLabel"/>
+            
             <Entry x:Name="NomeEntry"
                    Placeholder="Nome :" />
             <Entry x:Name="EnderecoEntry"
@@ -21,6 +25,13 @@
                    Placeholder="Nome da matéria-prima :" />
             <Entry x:Name="ValorMateriaPrimaEntry"
                    Placeholder="Valor de matéria-prima :" />
+          <Button Text="Deletar"
+                   TextColor="White"
+                   Clicked="DeletarFornecedor"/>
+          <Button Text="Salvar"
+                   TextColor="White"
+                   Clicked="SalvarFornecedor"/>         
+
             <Button Text="Voltar"
                     FontAttributes="Bold"
                     VerticalOptions="End"
