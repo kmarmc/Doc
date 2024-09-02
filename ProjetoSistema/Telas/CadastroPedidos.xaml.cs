@@ -61,7 +61,10 @@ namespace ProjetoSistema
             pedido.Endereco = EnderecoEntry.Text;
             pedido.Email = EmailEntry.Text;
             pedido.Telefone = TelefoneEntry.Text;
-
+            pedido.Produto = ProdutoEntry.Text;
+            pedido.ValorUnidade = decimal.Parse (ValorUnidadeEntry.Text);
+            pedido.Quantidade = int.Parse (NomeQuantidadeEntry.Text);
+            pedido.ValorTotal = int.Parse (ValorTotalEntry.Text);            
             controlePedido.CriarOuAtualizar(pedido);
             await DisplayAlert("Salvar", "Dados salvos com sucesso!", "OK");
             }
@@ -90,6 +93,27 @@ namespace ProjetoSistema
                 await DisplayAlert("Cadastrar", "O campo Telefone é obrigatório", "OK");
                 return false;
             }
+            else if (String.IsNullOrEmpty(ProdutoEntry.Text))
+            {
+                await DisplayAlert("Cadastrar", "O campo Produto é obrigatório", "OK");
+                return false;
+            }
+            else if (String.IsNullOrEmpty(ValorUnidadeEntry.Text))
+            {
+                await DisplayAlert("Cadastrar", "O campo Valor é obrigatório", "OK");
+                return false;
+            }
+            else if (String.IsNullOrEmpty(NomeQuantidadeEntry.Text))
+            {
+                await DisplayAlert("Cadastrar", "O campo Quantidade é obrigatório", "OK");
+                return false;
+            }
+            else if (String.IsNullOrEmpty(ValorTotalEntry.Text))
+            {
+                await DisplayAlert("Cadastrar", "O campo Valor Total é obrigatório", "OK");
+                return false;
+            }
+
             else
                 return true;
         }

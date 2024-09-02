@@ -39,6 +39,12 @@
             <!-- Espaço entre os botões -->
             <BoxView HeightRequest="10" />
 
+            <Button Text="Produtos" 
+                    Clicked="EntrarProdutos"    
+                    HorizontalOptions="Center" 
+                    WidthRequest="200" />
+           <BoxView HeightRequest="10" />
+ 
             <!-- Botão Setores -->
             <Button Text="Setores" 
                     Clicked="EntrarTelaSetores"    

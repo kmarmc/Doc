@@ -60,6 +60,9 @@ namespace ProjetoSistema
             fornecedor .Endereco = EnderecoEntry.Text;
             fornecedor .Email = EmailEntry.Text;
             fornecedor .Telefone = TelefoneEntry.Text;
+            fornecedor.TipoDeMateria = TipoMateriaPrimaEntry.Text;
+            fornecedor.NomeDeMateria = NomeMateriaPrimaEntry.Text;
+            fornecedor.ValorDeMateria = decimal.Parse (ValorDeMateriaEntry.Text);
 
             controleFornecedor.CriarOuAtualizar(fornecedor  );
             await DisplayAlert("Salvar", "Dados salvos com sucesso!", "OK");
@@ -94,12 +97,17 @@ namespace ProjetoSistema
                 await DisplayAlert("Cadastrar", "O campo Tipo de Matéria-Prima é obrigatório", "OK");
                 return false;
             }   
-            else if (String.IsNullOrEmpty(ValorMateriaPrimaEntry.Text))
+            else if (String.IsNullOrEmpty(NomeMateriaPrimaEntry.Text))
+            {
+                await DisplayAlert("Cadastrar", "O campo Nome de Matéria-Prima é obrigatório", "OK");
+                return false;
+            }            
+
+            else if (String.IsNullOrEmpty(ValorDeMateriaEntry.Text))
             {
                 await DisplayAlert("Cadastrar", "O campo Valor de Matéria-Prima é obrigatório", "OK");
                 return false;
             }            
-
             else
                 return true;
         }

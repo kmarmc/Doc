@@ -20,6 +20,12 @@ namespace ProjetoSistema
         if (Application.Current != null)
         Application.Current.MainPage = new TelaMateriaPrima();
     }
+         private void EntrarProdutos(object sender, EventArgs args)
+    {
+        if (Application.Current != null)
+        Application.Current.MainPage = new CadastroProduto();
+    }
+
     private void EntrarTelaSetores(object sender, EventArgs args)
     {
         if (Application.Current != null)

@@ -3,61 +3,44 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoSistema.TelaPedidos">
     <VerticalStackLayout Padding="20">
-        <Label Text="Pedidos" 
+        <Label Text="Pedidos"
                FontSize="24"
-               HorizontalOptions="Center" 
+               HorizontalOptions="Center"
                Padding="0,10,0,10"/>
 
-            <Button Text="Voltar"
-                    FontAttributes="Bold"
-                    VerticalOptions="Start"
-                    HorizontalOptions="Start"
-                    Clicked="Voltar"/>
-            <Button Text="Cadastro"
-                    FontAttributes="Bold"
-                    VerticalOptions="Start"
-                    HorizontalOptions="End"
-                    Clicked="Cadastrar"/>
-
-        
-
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="2*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="50" />
-            </Grid.ColumnDefinitions>
-
-            <Label Text="CLIENTE:" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" />
-            <Label Text="NUMERO DE OP" FontAttributes="Bold" Grid.Row="0" Grid.Column="1" />
-            <Label Text="QUANTIDADE" FontAttributes="Bold" Grid.Row="0" Grid.Column="2" />
-
-            <ImageButton Source="search.png" Grid.Row="0" Grid.Column="3" />
-
-            <CollectionView Grid.Row="1" Grid.ColumnSpan="4"
-                            x:Name="EstoqueCollectionView"
-                            ItemsSource="{Binding Estoque}">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="2*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-
-                            <Label Text="{Binding Cliente}" Grid.Column="0" />
-                            <Label Text="{Binding NumeroDeOp}" Grid.Column="1" />
-                            <Label Text="{Binding Quantidade}" Grid.Column="2" />
-                        </Grid>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </Grid>
+        <Button Text="Voltar"
+                FontAttributes="Bold"
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Clicked="Voltar"/>
+        <Button Text="Cadastro"
+                FontAttributes="Bold"
+                VerticalOptions="Start"
+                HorizontalOptions="End"
+                Clicked="Cadastrar"/>
+        <ListView x:Name="ListaPedidos"
+                  HasUnevenRows="True"
+                  ItemSelected="SelecionarLista"
+                  HorizontalOptions="Fill"
+                  VerticalOptions="Fill">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <VerticalStackLayout Padding="20"
+                                             BackgroundColor="Transparent">
+                            <HorizontalStackLayout>
+                                <Label Text="{Binding Nome}"
+                                       FontSize="20"/>
+                                <Label Text="{Binding Email}"
+                                       FontSize="20"
+                                       Margin="10,0,0,0"/>
+                            </HorizontalStackLayout>
+                            <Label Text="{Binding Telefone}"
+                                   FontSize="20"/>
+                        </VerticalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </VerticalStackLayout>
 </ContentPage>

@@ -1,45 +1,35 @@
 using System.Collections.ObjectModel;
+using Controles;
 using Microsoft.Maui.Controls;
 using Modelos;
 
 namespace ProjetoSistema
 {
+
     public partial class TelaPedidos : ContentPage
     {
+        Controles.ControlePedido controlePedido = new Controles.ControlePedido();
         public ObservableCollection<Pedido> Pedidos { get; set; }
 
         public TelaPedidos()
         {
             InitializeComponent();
+            ListaPedidos.ItemsSource = controlePedido.LerTodos();
+        }
+        void SelecionarLista(object sender, SelectedItemChangedEventArgs e)
+        {
 
-           
-            Pedidos = new ObservableCollection<Pedido>();
-            var pedido1 = new Pedido();
-            pedido1.Quantidade = 1;
-            pedido1.Cliente = "ncjndoo";
-            pedido1.NumeroDaOp = 1;
-
-            var pedido2 = new Pedido();
-            pedido2.Quantidade = 2;
-            pedido2.Cliente = "jmfkngjhn";
-            pedido2.NumeroDaOp = 2;
-
-
-            Pedidos.Add(pedido1);
-            Pedidos.Add(pedido2);
-
-            BindingContext = this;
-    }
-
-    private void Voltar(object sender, EventArgs args)
-    {
-        if (Application.Current != null)
-        Application.Current.MainPage = new TelaInicial();
-    }
-    private void Cadastrar(object sender, EventArgs args)
-    {
-        if (Application.Current != null)
-        Application.Current.MainPage = new CadastroPedidos();
+        }
+        private void Voltar(object sender, EventArgs args)
+        {
+            if (Application.Current != null)
+                Application.Current.MainPage = new TelaInicial();
+        }
+        private void Cadastrar(object sender, EventArgs args)
+        {
+            if (Application.Current != null)
+                Application.Current.MainPage = new CadastroPedidos();
+        }
     }
 }
-}
+

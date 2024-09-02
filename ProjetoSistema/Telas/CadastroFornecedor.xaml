@@ -23,7 +23,7 @@
                    Placeholder="Tipo de matéria-prima :" />
             <Entry x:Name="NomeMateriaPrimaEntry"
                    Placeholder="Nome da matéria-prima :" />
-            <Entry x:Name="ValorMateriaPrimaEntry"
+            <Entry x:Name="ValorDeMateriaEntry"
                    Placeholder="Valor de matéria-prima :" />
           <Button Text="Deletar"
                    TextColor="White"

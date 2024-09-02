@@ -19,13 +19,13 @@
                    Placeholder="E-mail :" />
             <Entry x:Name="TelefoneEntry"
                    Placeholder="Telefone :" />
-            <Entry x:Name="TipoMateriaPrimaEntry"
+            <Entry x:Name="ProdutoEntry"
                    Placeholder="Produto :" />
-            <Entry x:Name="NomeMateriaPrimaEntry"
+            <Entry x:Name="ValorUnidadeEntry"
                    Placeholder="Valor da unidade :" />
             <Entry x:Name="NomeQuantidadeEntry"
                    Placeholder="Quantidade :" />
-            <Entry x:Name="ValorMateriaPrimaEntry"
+            <Entry x:Name="ValorTotalEntry"
                    Placeholder="Valor Total :" />
             <Button Text="Voltar"
                     FontAttributes="Bold"
