@@ -48,6 +48,22 @@ namespace ProjetoSistema
                 Application.Current.MainPage = new TelaCliente();
             }
         }
+       
+protected override void OnAppearing()
+  {
+    base.OnAppearing();
+
+    if (pedido != null)
+    {
+      IdLabel.Text        = pedido.Id.ToString();
+      NomeEntry.Text      = pedido.Nome;
+      EnderecoEntry.Text      = pedido.Endereco;
+       EmailEntry.Text      = pedido.Email;
+       ProdutoEntry.Text      = pedido.Produto;   
+      TelefoneEntry.Text  = pedido.Telefone;
+    }
+  }
+   
         protected async void SalvarPedido(object sender, EventArgs e)
         {
             if (await VerificarDados())
