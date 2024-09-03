@@ -16,6 +16,11 @@ namespace ProjetoSistema
             InitializeComponent();
             ListaPedidos.ItemsSource = controlePedido.LerTodos();
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            ListaPedidos.ItemsSource = controlePedido.LerTodos();
+        }
         void SelecionarLista(object sender, SelectedItemChangedEventArgs e)
         {
 
