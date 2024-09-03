@@ -23,7 +23,9 @@ namespace ProjetoSistema
         }
         void SelecionarLista(object sender, SelectedItemChangedEventArgs e)
         {
-
+              var page = new CadastroPedidos();
+              page.pedido = e.SelectedItem as Pedido;
+              Application.Current.MainPage = page;
         }
         private void Voltar(object sender, EventArgs args)
         {
